@@ -1,0 +1,43 @@
+<html>
+   
+<meta charset="utf-8">
+<body>
+<h1>Exploring Phylotree</h1>
+<link rel="icon" href="data:,"><!--prevent browser look favicon.ico-->
+<script src="{{ url_for('static', filename='bundle.js') }}"></script>
+
+<span hidden id=data_stri>{{ data }}</span>
+
+<span onload="component2()"></span>
+
+<div id=divboxes>
+  <input type="button" id="x", name="x" value="x" onclick="alert('into divboxes')">
+  <button id="y" name="y" value="y">   
+</div>
+
+
+<div id=svgtest1><svg></svg></div>
+<div id=svgtest1></div>
+
+
+<svg id="tree_display"></svg>
+
+
+<!--div id=treeplayground  width="1800" height="1200" >
+    <form>
+      <input type="button" name="showtree" value="showtree" >
+      <label>Radial layout</label>
+      <input type="checkbox" id="layout"  />
+    </form>
+      
+    <div id="treeviz">
+   
+    </div>
+</div-->
+
+
+    
+{% block content%}
+{% endblock %}
+</body>
+</html>

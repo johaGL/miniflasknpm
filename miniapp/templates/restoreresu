@@ -1,0 +1,23 @@
+<html>
+<body>
+<h1>Exploring Phylotree</h1>
+<!--script src="{{ url_for('static', filename='bundle.js') }}"></script-->
+<!--script src="{{ url_for('node_modules', filename='phylotree/build/phylotree.js') }}"></script>
+<script src="{{ url_for('node_modules', filename='phylotree/build/phylotree.css') }}"></script-->
+
+<span onload="component()"></span>
+<span onload="component2()"></span>
+<div id=treeplayground  width="1800" height="1200" >
+    <form>
+      <input type="button" name="showtree" value="showtree" onclick="treedisplay()">
+      <label>Radial layout</label>
+      <input type="checkbox" id="layout"  />
+    </form>
+      
+    <div id="treeviz"  >
+      <svg id="tree_display" ></svg>
+</div>
+
+
+</body>
+</html>

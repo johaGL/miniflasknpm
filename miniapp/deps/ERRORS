@@ -1,0 +1,12 @@
+Compilation finished
+assets by status 2.21 KiB [cached] 1 asset
+./src/resphyloapp.js 1.8 KiB [built] [code generated] [1 error]
+
+ERROR in ./src/resphyloapp.js 57:0
+Module parse failed: Unexpected token (57:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| export default  {
+|     component2()
+> };
+| 
+| module.exports = {

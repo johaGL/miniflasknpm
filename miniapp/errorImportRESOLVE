@@ -1,0 +1,2 @@
+Could not find a declaration file for module 'phylotree'. '/home/johanna/miniapp/node_modules' implicitly has an 'any' type.
+  Try `npm install @types/phylotree` if it exists or add a new declaration (.d.ts) file containing `declare module 'phylotree/build/phylotree.js';`ts(7016)
